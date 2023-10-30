@@ -1,0 +1,9 @@
+[[auction-search]]
+=== 경매 일정 조회
+
+==== HTTP Request
+include::{snippets}/auction-search/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/auction-search/http-response.adoc[]
+include::{snippets}/auction-search/response-fields.adoc[]

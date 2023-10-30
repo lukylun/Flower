@@ -1,0 +1,10 @@
+[[category-name-search]]
+=== 카테고리 품종 조회
+
+==== HTTP Request
+include::{snippets}/category-name-search/http-request.adoc[]
+include::{snippets}/category-name-search/request-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/category-name-search/http-response.adoc[]
+include::{snippets}/category-name-search/response-fields.adoc[]

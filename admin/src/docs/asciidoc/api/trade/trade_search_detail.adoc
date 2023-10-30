@@ -1,0 +1,9 @@
+[[trade-search-datail]]
+=== 낙찰 내역 상세 조회
+
+==== HTTP Request
+include::{snippets}/trade-search-detail/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/trade-search-detail/http-response.adoc[]
+include::{snippets}/trade-search-detail/response-fields.adoc[]

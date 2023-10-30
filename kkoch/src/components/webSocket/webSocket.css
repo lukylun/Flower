@@ -1,0 +1,194 @@
+.websocket-container {
+  width: 350px;
+}
+
+/* 컨테이너 전체 스타일 */
+.auction-container {
+  display: flex;
+}
+
+/* 최상단 타이틀, 버튼 div */
+.auction-top {
+  display: flex;
+  align-items: center;
+}
+
+/* 나가기 버튼 */
+.leave-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 상단 제목 스타일 */
+.auction-heading {
+  flex: 1;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: black;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+/* 경매 내용 컨테이너 스타일 */
+.auction-content {
+  display: flex;
+}
+
+/* 경매 정보 컨테이너 스타일 */
+.auction-info {
+  padding-left: 20px;
+}
+
+/* 경매정보 경계 */
+.auction-border {
+  border: 1px solid #FBD8D9;
+}
+
+.auction-bidding-border {
+  border: 1px solid #FBD8D9;
+}
+
+/* 보유 포인트 스타일 */
+.auction-point {
+  display: flex;
+  justify-content: right;
+  padding-right: 20px;
+  color: black;
+  font-weight: 700;
+}
+
+/* 경매 상태 스타일 */
+.auction-status {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: 1000;
+  background-color: white;
+  border: 1px solid #FFE7E6;
+  align-items: center;
+  font-size: 20px;
+  height: 50px;
+}
+
+/* 경매 내용과 도넛 차트를 담는 컨테이너 스타일 */
+.auction-container {
+  width: 100%;
+  height: 180px;
+}
+
+/* 데이터 값 글자색 */
+.red-text {
+  color: red; 
+  font-weight: bold;
+}
+
+/* 도넛 차트 컨테이너 스타일 */
+.graph-container {
+  flex: 1; 
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+
+.info-title {
+  flex: 1;
+  font-weight: bold;
+  margin-right: 20px; /* 타이틀과 데이터 사이 간격 조절 */
+}
+
+/* 출하량 및 경매 정보 스타일 */
+.auction-status-info {
+  position: absolute;
+  top: 0;
+  left: 130px;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  color: black;
+  font-weight: 700;
+  padding: 10px 10px 10px 30px;
+  font-size: 20px;
+}
+
+/* 그래프와 경매 상태 정보를 담는 컨테이너 스타일 */
+.auction-graph-info-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: white;
+}
+
+/* 경매 입찰 정보 컨테이너 스타일 */
+.auction-bidding-info {
+  background-color: white;
+  height: 178px;
+}
+
+/* 현재가 및 낙찰 정보 스타일 */
+.auction-bidding-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* 다음 꽃 정보 스타일 */
+.auction-next-title {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: 1000;
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+/* 다음 꽃 정보 내용 스타일 */
+.auction-next-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .normal-button {
+  color:white;
+  background-color: #FA5B33;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+} */
+
+.bidding-button {
+  color: white;
+  background-color: #459358;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 350px;
+  height: 50px;
+  font-size: 22px;
+}
+
+.disabled {
+  background-color: #ffdddd;
+  color: #aa0000;
+  cursor: not-allowed;
+}

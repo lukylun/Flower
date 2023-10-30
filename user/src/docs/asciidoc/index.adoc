@@ -1,0 +1,35 @@
+ifndef::snippets[]
+:snippets: ../../build/generated-snippets
+endif::[]
+= kkoch REST API 문서
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[Member-API]]
+== Member API
+
+include::api/member/my_info.adoc[]
+include::api/member/my_password.adoc[]
+
+
+[[Reservation-API]]
+== Reservation API
+
+include::api/reservation/reservation_create.adoc[]
+include::api/reservation/reservation_search.adoc[]
+
+[[Alarm-API]]
+== Alarm API
+
+include::api/alarm/alarm_search.adoc[]
+
+[[Point-History-API]]
+== Point History API
+
+include::api/pointhistory/point_history_charge.adoc[]
+include::api/pointhistory/point_history_use.adoc[]
+include::api/pointhistory/point_history_search.adoc[]

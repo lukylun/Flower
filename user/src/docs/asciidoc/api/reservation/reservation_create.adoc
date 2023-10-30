@@ -1,0 +1,10 @@
+[[reservation-create]]
+=== 거래 예약 등록
+
+==== HTTP Request
+include::{snippets}/reservation-create/http-request.adoc[]
+include::{snippets}/reservation-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/reservation-create/http-response.adoc[]
+include::{snippets}/reservation-create/response-fields.adoc[]

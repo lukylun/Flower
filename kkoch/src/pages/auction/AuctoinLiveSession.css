@@ -1,0 +1,39 @@
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.camera-button {
+  color:white;
+  background-color: #FA5B33;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+}
+
+.join-button {
+  color:white;
+  background-color: red;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+}
+
+.join-button-green {
+  color:white;
+  background-color: green;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+}
+
+.title-content-center{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}

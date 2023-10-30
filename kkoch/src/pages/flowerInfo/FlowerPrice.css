@@ -1,0 +1,33 @@
+.price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.lower-price-title, .higher-price-title, .average-price-title {
+  border: 1px solid #e4e4e7;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #71717a;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+}
+
+.lower-price-tag, .higher-price-tag, .average-price-tag {
+  color: black;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.lower-price-percent, .higher-price-percent, .average-price-percent {
+  padding-left: 10px;
+  color: #22C55E;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.div-price-title {
+  margin-top: 10px;
+}

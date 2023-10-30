@@ -1,0 +1,9 @@
+[[trade-remove]]
+=== 낙찰 내역 삭제
+
+==== HTTP Request
+include::{snippets}/trade-remove/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/trade-remove/http-response.adoc[]
+include::{snippets}/trade-remove/response-fields.adoc[]

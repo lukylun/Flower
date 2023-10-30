@@ -1,0 +1,10 @@
+[[point-history-search]]
+=== 포인트 내역 조회
+
+==== HTTP Request
+include::{snippets}/point-history-search/http-request.adoc[]
+include::{snippets}/point-history-search/request-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/point-history-search/http-response.adoc[]
+include::{snippets}/point-history-search/response-fields.adoc[]

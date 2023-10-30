@@ -1,0 +1,27 @@
+.petal {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #f8c9ff; /* 벚꽃잎 색상 */
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: falling linear infinite;
+}
+
+/* 애니메이션 키프레임 정의 */
+@keyframes falling {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+/* 메인 페이지 타이틀 스타일 */
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}

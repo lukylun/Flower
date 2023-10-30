@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'omyu_pretty';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IM_Hyemin-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.chart-container {
+  background-color: white;
+  font-family: 'IM_Hyemin-Bold';
+}  
+
+.chart-title {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 20px;
+}  
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}  
+
+.toolbar {
+  font-family: 'omyu_pretty';
+  display: flex; /* Flexbox 사용 */
+  /* gap: 10px; 버튼 사이의 간격 */
+  font-weight: bold;
+  padding:0 5px;
+}  
+
+.toolbar button {
+  margin-right: 10px;
+  padding: 5px 15px;
+  font-size: 1rem;
+  border: 1px solid #A1A1AA;
+  color: #71717a;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}  
+
+.toolbar button.active {
+  color: black;
+  font-weight: bold;
+}  
+

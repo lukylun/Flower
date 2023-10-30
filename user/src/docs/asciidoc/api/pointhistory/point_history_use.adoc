@@ -1,0 +1,10 @@
+[[point-history-charge]]
+=== 포인트 충전
+
+==== HTTP Request
+include::{snippets}/point-history-use/http-request.adoc[]
+include::{snippets}/point-history-use/request-body.adoc[]
+
+==== HTTP Response
+include::{snippets}/point-history-use/http-response.adoc[]
+include::{snippets}/point-history-use/response-fields.adoc[]

@@ -1,0 +1,41 @@
+ifndef::snippets[]
+:snippets: ../../build/generated-snippets
+endif::[]
+= kkoch REST API 문서
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[Trade-API]]
+== Trade API
+
+include::api/trade/trade_create.adoc[]
+include::api/trade/trade_search.adoc[]
+include::api/trade/trade_search_detail.adoc[]
+include::api/trade/trade_pickup.adoc[]
+include::api/trade/trade_remove.adoc[]
+
+[[Auction-API]]
+== Auction API
+
+include::api/auction/auction_search.adoc[]
+
+[[Category-API]]
+== Category API
+
+include::api/category/category-type-search.adoc[]
+include::api/category/category-name-search.adoc[]
+
+[[AuctionArticle-API]]
+== Auction Article API
+
+include::api/auctionarticle/auction-article-search.adoc[]
+
+[[Notice-API]]
+== Notice API
+
+include::api/notice/notice_search.adoc[]
+include::api/notice/notice_detail_search.adoc[]

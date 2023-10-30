@@ -1,0 +1,135 @@
+.tablecontent {
+  margin-bottom: 10px;
+  padding: 0 100px;
+}
+
+.MuiInputBase-root {
+  background-color: white;
+}
+
+.tablecontent-inner {
+  background-color: #E4B2BD;
+  flex-direction: row;
+  /* The inner container takes the full available width */
+  align-items: center;
+  /* justify-content: space-between; */
+  display: flex;
+  height: 60px;
+}
+
+.datecontent,
+.flowercontent,
+.varietycontent,
+.locationcontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+.datecontent {
+  flex-grow: 2; /* 2:1:1:1 비율로 나누기 위해 */
+}
+
+.datecontent {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.flowercontent {
+  display: flex;
+  align-items: center;
+}
+
+.varietycontent {
+  display: flex;
+  align-items: center;;
+}
+
+.locationcontent {
+  display: flex;
+  align-items: center;;
+}
+
+.datetitle {
+  margin-right: 10px;
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+}
+
+.datepicker {
+  width: 145px;
+}
+
+.varietytitle {
+  font-weight: 700;
+  color: black;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.varietyinput {
+  text-align: center;
+}
+
+.flowertitle {
+  font-weight: 700;
+  color: black;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.flowerinput {
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.locationtitle {
+  font-weight: 700;
+  color: black;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.locationinput {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.button-search {
+  margin-left: 10px;
+  color: red;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button-search:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+  .flowerinput,
+  .varietyinput,
+  .locationinput {
+    width: 100px; /* 원하는 최소 크기 */
+  }
+}
+
+@media (min-width: 1081px) {
+  .flowerinput,
+  .varietyinput,
+  .locationinput {
+    width: calc(100px + 1vw); /* 최소 크기 + 화면 너비 */
+  }
+}

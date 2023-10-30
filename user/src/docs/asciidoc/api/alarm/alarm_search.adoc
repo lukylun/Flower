@@ -1,0 +1,9 @@
+[[alarm-search]]
+=== 알림 조회
+
+==== HTTP Request
+include::{snippets}/alarm-search/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/alarm-search/http-response.adoc[]
+include::{snippets}/alarm-search/response-fields.adoc[]

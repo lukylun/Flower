@@ -1,0 +1,7 @@
+token:
+  expiration_time: 86400000
+  secret: VlwEyVBsYt9V7zq57TejMnVUyzblYcfPQye08f7MGVA9XkHa
+
+gateway:
+  ip: 172.0.0.1
+

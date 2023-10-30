@@ -1,0 +1,10 @@
+[[trade-create]]
+=== 낙찰 내역 등록
+
+==== HTTP Request
+include::{snippets}/trade-create/http-request.adoc[]
+include::{snippets}/trade-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/trade-create/http-response.adoc[]
+include::{snippets}/trade-create/response-fields.adoc[]

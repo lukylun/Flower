@@ -1,0 +1,104 @@
+.table-units {
+  color: gray;
+  margin-right: 100px;
+  font-size: medium;
+  position: absolute;
+  top: 85px;
+  right: 10px;
+}
+
+.paging-title {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.paging-title a {
+  color: #FFB7C5;
+  font-weight: 800;
+}
+
+.paging-title a {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.paging-title a:hover{
+  font-weight: bold;
+  color: #F25477; /* 클릭된 상태의 글자색을 변경합니다. 원하는 색상으로 변경하세요. */
+}
+
+.paging-title a.active-link {
+  font-weight: bold;
+  color: #F25477;
+}
+
+.tablecontent {
+  width: 100%;
+}
+
+.table-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.table-title {
+  margin-bottom: 10px;
+  margin-left: 100px;
+  color:black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.custom-row-sold {
+  background-color: white;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: #F25477;
+  color: white;
+  font-weight: bold ;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+
+.MuiDataGrid-cell{
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.MuiDataGrid-footerContainer {
+  background-color: white;
+  border-top: 1px solid #FFB7C5 !important;
+}
+
+.MuiDataGrid-virtualScroller {
+  background-color: white;
+}
+
+.MuiDataGrid-row {
+  border-top: 1px solid #FFB7C5;
+  border-bottom: 1px solid #FFB7C5;
+  /* margin-top: 2px;
+  margin-bottom: 2px; */
+}
+
+
+.MuiDataGrid-cell a{
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-row-sold:hover {
+  background-color: pink; /* 원하는 색상으로 변경 */
+}

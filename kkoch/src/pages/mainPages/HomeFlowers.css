@@ -1,0 +1,6 @@
+.homeflower {
+  background-image: url("@/assets/FlowerScatter.gif");
+  background-size: contain;
+  background-position: 'center';
+  background-repeat: repeat-y;
+}

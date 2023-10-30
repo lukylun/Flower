@@ -1,0 +1,10 @@
+[[reservation-search]]
+=== 거래 예약 조회
+
+==== HTTP Request
+include::{snippets}/reservation-search/http-request.adoc[]
+include::{snippets}/reservation-search/request-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/reservation-search/http-response.adoc[]
+include::{snippets}/reservation-search/response-fields.adoc[]

@@ -1,0 +1,9 @@
+[[trade-pickup]]
+=== 경매품 픽업
+
+==== HTTP Request
+include::{snippets}/trade-pickup/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/trade-pickup/http-response.adoc[]
+include::{snippets}/trade-pickup/response-fields.adoc[]

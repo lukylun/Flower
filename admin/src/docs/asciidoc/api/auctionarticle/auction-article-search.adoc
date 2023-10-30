@@ -1,0 +1,12 @@
+[[auction-article-search]]
+=== 경매품 조회
+
+==== HTTP Request
+
+include::{snippets}/auction-article-search/http-request.adoc[]
+include::{snippets}/auction-article-search/request-parameters.adoc[]
+
+==== HTTP Response
+
+include::{snippets}/auction-article-search/http-response.adoc[]
+include::{snippets}/auction-article-search/response-fields.adoc[]

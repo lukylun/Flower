@@ -1,0 +1,9 @@
+[[my-info]]
+=== 회원 마이페이지
+
+==== HTTP Request
+include::{snippets}/my-info/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/my-info/http-response.adoc[]
+include::{snippets}/my-info/response-fields.adoc[]
